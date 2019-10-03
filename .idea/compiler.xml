@@ -10,6 +10,9 @@
         <module name="sprincloud-common" />
         <module name="springcloud-eureka-server" />
         <module name="springcloud-eureka-server (1)" />
+        <module name="springcloud-eureka-server-2001" />
+        <module name="springcloud-eureka-server-2002" />
+        <module name="springcloud-eureka-server-2003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +22,9 @@
       <module name="springcloud-common" target="1.8" />
       <module name="springcloud-eureka-server" target="1.8" />
       <module name="springcloud-eureka-server (1)" target="1.8" />
+      <module name="springcloud-eureka-server-2001" target="1.8" />
+      <module name="springcloud-eureka-server-2002" target="1.8" />
+      <module name="springcloud-eureka-server-2003" target="1.8" />
       <module name="springcloud-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>

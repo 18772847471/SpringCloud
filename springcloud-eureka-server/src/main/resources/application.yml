@@ -1,7 +1,7 @@
 server:
   port: 2000
   servlet:
-    context-path: /
+    context-path: /springcloud-eureka-server
 eureka:
   instance:
     hostname: localhost

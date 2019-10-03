@@ -2,6 +2,9 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springcloud-eureka-server" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-eureka-server-2001" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-eureka-server-2002" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-eureka-server-2003" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -9,6 +12,9 @@
         <option value="$PROJECT_DIR$/springcloud-parent/pom.xml" />
         <option value="$PROJECT_DIR$/sprincloud-common/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-server-2002/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-server-2001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-server-2003/pom.xml" />
       </list>
     </option>
   </component>

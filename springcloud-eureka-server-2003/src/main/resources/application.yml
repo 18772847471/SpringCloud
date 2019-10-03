@@ -1,0 +1,12 @@
+server:
+  port: 2003
+  servlet:
+    context-path: /springcloud-eureka-server-2003
+eureka:
+  instance:
+    hostname: eureka2003
+  client:
+      register-with-eureka: false
+      fetch-registry: false
+      service-url:
+             defaultZone: http://eureka2001:2001/eureka/,http://eureka2002:2002/eureka/
