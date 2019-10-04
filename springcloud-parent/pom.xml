@@ -13,6 +13,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <cloud.version>Edgware.SR4</cloud.version>
         <boot.version>1.5.13.RELEASE</boot.version>
+        <swagger.version>2.6.1</swagger.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -29,6 +30,18 @@
                 <version>${boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!--swagger2-->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

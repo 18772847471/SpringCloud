@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="sprincloud-common" />
+        <module name="springcloud-consumer" />
         <module name="springcloud-eureka-server" />
         <module name="springcloud-eureka-server (1)" />
         <module name="springcloud-eureka-server-2001" />
         <module name="springcloud-eureka-server-2002" />
         <module name="springcloud-eureka-server-2003" />
+        <module name="springcloud-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,12 +22,14 @@
       <module name="sprincloud-common" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="springcloud-common" target="1.8" />
+      <module name="springcloud-consumer" target="1.8" />
       <module name="springcloud-eureka-server" target="1.8" />
       <module name="springcloud-eureka-server (1)" target="1.8" />
       <module name="springcloud-eureka-server-2001" target="1.8" />
       <module name="springcloud-eureka-server-2002" target="1.8" />
       <module name="springcloud-eureka-server-2003" target="1.8" />
       <module name="springcloud-parent" target="1.8" />
+      <module name="springcloud-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
