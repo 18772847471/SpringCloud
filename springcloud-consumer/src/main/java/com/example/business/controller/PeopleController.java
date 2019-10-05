@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 @RequestMapping("/v/people")
 @RestController
 public class PeopleController {
-    private static String PEOPLE_HELLO= "http://localhost:1000/springcloud-provider/people/hello";
+    private static String PRE_HOST= "http://springcloud-provider/springcloud-provider";
 
     @Resource
     private RestTemplate restTemplate;
@@ -19,7 +19,7 @@ public class PeopleController {
     @ApiOperation(value = "hello接口",notes = "hello接口")
     @RequestMapping(value ="/hello", method = RequestMethod.GET)
     public String hello(){
-        return restTemplate.getForObject(PEOPLE_HELLO, String.class);
+        return restTemplate.getForObject(PRE_HOST+"/people/hello", String.class);
     }
 
 }

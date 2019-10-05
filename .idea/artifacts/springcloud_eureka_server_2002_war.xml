@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="springcloud-eureka-server-2002:war">
     <output-path>$PROJECT_DIR$/springcloud-eureka-server-2002/target</output-path>
-    <root id="archive" name="springcloud-eureka-server-2002-0.0.1-SNAPSHOT.war">
+    <root id="archive" name="microservice.war">
       <element id="artifact" artifact-name="springcloud-eureka-server-2002:war exploded" />
     </root>
   </artifact>

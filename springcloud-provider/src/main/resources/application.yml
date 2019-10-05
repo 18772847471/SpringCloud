@@ -1,3 +1,17 @@
 server:
   port: 1000
   context-path: /springcloud-provider
+
+spring:
+  application:
+    name: springcloud-provider
+
+eureka:
+  instance:
+    hostname: localhost
+    appname:  springcloud-provider
+    instance-id: springcloud-provider:1000
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:2000/eureka
