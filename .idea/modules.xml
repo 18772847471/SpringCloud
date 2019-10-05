@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloud.iml" filepath="$PROJECT_DIR$/SpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/sprincloud-common/sprincloud-common.iml" filepath="$PROJECT_DIR$/sprincloud-common/sprincloud-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-consumer/springcloud-consumer.iml" filepath="$PROJECT_DIR$/springcloud-consumer/springcloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-feign/springcloud-consumer-feign.iml" filepath="$PROJECT_DIR$/springcloud-consumer-feign/springcloud-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server (1).iml" filepath="$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server-2001/springcloud-eureka-server-2001.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server-2001/springcloud-eureka-server-2001.iml" />

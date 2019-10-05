@@ -1,0 +1,9 @@
+server:
+  port: 80
+  context-path: /springcloud-consumer-feign
+eureka:
+  client:
+    register-with-eureka: false #false \u7531\u4E8E\u6CE8\u518C\u4E2D\u5FC3\u7684\u804C\u8D23\u5C31\u662F\u7EF4\u62A4\u670D\u52A1\u5B9E\u4F8B\uFF0C\u5B83\u5E76\u4E0D\u9700\u8981\u53BB\u68C0\u7D22\u670D\u52A1\uFF0C\u6240\u4EE5\u4E5F\u8BBE\u7F6E\u4E3Afalse
+    service-url:
+      #defaultZone: http://localhost:2000/eureka  #\u5355\u673A
+      defaultZone: http://eureka2001:2001/eureka,http://eureka2002:2002/eureka,http://eureka2003:2003/eureka

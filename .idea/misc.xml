@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springcloud-consumer" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-consumer-80" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-consumer-feign" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-eureka-server" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-eureka-server-2001" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-eureka-server-2002" />
@@ -29,6 +30,7 @@
         <option value="$PROJECT_DIR$/springcloud-provider-1001/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-provider-1003/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-provider-1002/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-feign/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springcloud-consumer-feign:war">
+    <output-path>$PROJECT_DIR$/springcloud-consumer-feign/target</output-path>
+    <root id="archive" name="microservice.war">
+      <element id="artifact" artifact-name="springcloud-consumer-feign:war exploded" />
+    </root>
+  </artifact>
+</component>
