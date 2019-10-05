@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springcloud-provider-1001:war">
+    <output-path>$PROJECT_DIR$/springcloud-provider-1001/target</output-path>
+    <root id="archive" name="microservice.war">
+      <element id="artifact" artifact-name="springcloud-provider-1001:war exploded" />
+    </root>
+  </artifact>
+</component>

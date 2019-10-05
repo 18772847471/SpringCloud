@@ -8,6 +8,10 @@
     <file type="web" url="file://$PROJECT_DIR$/springcloud-eureka-server-2002" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-eureka-server-2003" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-provider-1001" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-provider-1002" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-provider-1003" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-provvider-1001" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -21,6 +25,10 @@
         <option value="$PROJECT_DIR$/springcloud-consumer-80/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provvider-1001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-1001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-1003/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-1002/pom.xml" />
       </list>
     </option>
   </component>

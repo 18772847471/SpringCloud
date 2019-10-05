@@ -12,6 +12,10 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server-2003/springcloud-eureka-server-2003.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server-2003/springcloud-eureka-server-2003.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" filepath="$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-provider/springcloud-provider.iml" filepath="$PROJECT_DIR$/springcloud-provider/springcloud-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider/springcloud-provider.iml" filepath="$PROJECT_DIR$/springcloud-provider/springcloud-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-1001/springcloud-provider-1001.iml" filepath="$PROJECT_DIR$/springcloud-provider-1001/springcloud-provider-1001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-1002/springcloud-provider-1002.iml" filepath="$PROJECT_DIR$/springcloud-provider-1002/springcloud-provider-1002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-1003/springcloud-provider-1003.iml" filepath="$PROJECT_DIR$/springcloud-provider-1003/springcloud-provider-1003.iml" />
     </modules>
   </component>
 </project>
