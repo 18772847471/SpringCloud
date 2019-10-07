@@ -8,22 +8,23 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
+
+@RequestMapping("/v/people")
 @RestController
-@RequestMapping("/people")
 public class PeopleController {
 
-    @Resource(name = "peopleServiceImpl")
-    private PeopleService  peopleServiceImpl;
+    @Resource(name="peopleServiceImpl")
+    private PeopleService peopleService;
 
     @ApiOperation(value = "hello接口",notes = "hello接口")
     @RequestMapping(value ="/hello", method = RequestMethod.GET)
     public String hello(){
-        return peopleServiceImpl.hello();
+        return  peopleService.hello();
     }
 
     @ApiOperation(value = "getinfo接口",notes = "getinfo接口")
     @RequestMapping(value ="/getinfo", method = RequestMethod.GET)
     public String getinfo(){
-        return peopleServiceImpl.getinfo();
+        return  peopleService.getinfo();
     }
 }

@@ -20,4 +20,10 @@ public class PeopleController {
     public String hello(){
         return peopleServiceImpl.hello();
     }
+
+    @ApiOperation(value = "getinfo接口",notes = "getinfo接口")
+    @RequestMapping(value ="/getinfo", method = RequestMethod.GET)
+    public String getinfo(){
+        return peopleServiceImpl.getinfo();
+    }
 }

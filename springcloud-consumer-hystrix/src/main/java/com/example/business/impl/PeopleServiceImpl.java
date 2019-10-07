@@ -1,23 +1,22 @@
 package com.example.business.impl;
 
+import com.example.business.service.ClientService;
 import com.example.business.service.PeopleService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service("peopleServiceImpl")
 public class PeopleServiceImpl implements PeopleService {
+    @Autowired
+    private ClientService clientService;
 
     @Override
-    public String hello(){
-        return "hello world  - 1002";
+    public String hello() {
+        return clientService.hello();
     }
 
     @Override
     public String getinfo() {
-        try {
-            Thread.sleep(2000);//模拟阻塞
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-        return "getinfo-1002";
+        return clientService.getinfo();
     }
 }

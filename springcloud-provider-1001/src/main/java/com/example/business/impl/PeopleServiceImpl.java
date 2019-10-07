@@ -6,7 +6,18 @@ import org.springframework.stereotype.Service;
 @Service("peopleServiceImpl")
 public class PeopleServiceImpl implements PeopleService {
 
+    @Override
     public String hello(){
         return "hello world  - 1001";
+    }
+
+    @Override
+    public String getinfo() {
+        try {
+            Thread.sleep(2000);//模拟阻塞
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return "getinfo-1001";
     }
 }
