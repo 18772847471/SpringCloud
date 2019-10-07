@@ -9,4 +9,14 @@ public class PeopleServiceImpl implements PeopleService {
     public String hello(){
         return "hello world";
     }
+
+    @Override
+    public String getinfo() {
+        try {
+            Thread.sleep(2000);//模拟阻塞
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return "getinfo";
+    }
 }

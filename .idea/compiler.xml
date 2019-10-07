@@ -9,8 +9,10 @@
         <module name="demo" />
         <module name="sprincloud-common" />
         <module name="springcloud-consumer" />
+        <module name="springcloud-consumer-fegin-hystrix" />
         <module name="springcloud-consumer-feign" />
         <module name="springcloud-consumer-hystrix" />
+        <module name="springcloud-consumer-hystrix-dashboard" />
         <module name="springcloud-eureka-server" />
         <module name="springcloud-eureka-server (1)" />
         <module name="springcloud-eureka-server-2001" />
@@ -28,8 +30,11 @@
       <module name="spring-cloud-eureka" target="1.8" />
       <module name="springcloud-common" target="1.8" />
       <module name="springcloud-consumer" target="1.8" />
+      <module name="springcloud-consumer-fegin-hystrix" target="1.8" />
       <module name="springcloud-consumer-feign" target="1.8" />
       <module name="springcloud-consumer-hystrix" target="1.8" />
+      <module name="springcloud-consumer-hystrix-dashboard" target="1.8" />
+      <module name="springcloud-consumer-hystrix-dashboard-90" target="1.8" />
       <module name="springcloud-eureka-server" target="1.8" />
       <module name="springcloud-eureka-server (1)" target="1.8" />
       <module name="springcloud-eureka-server-2001" target="1.8" />
