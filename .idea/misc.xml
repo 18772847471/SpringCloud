@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springcloud-consumer-hystrix" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard-90" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-consumer-hystrix-turbine" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-eureka-server" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-eureka-server-2001" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-eureka-server-2002" />
@@ -39,6 +40,7 @@
         <option value="$PROJECT_DIR$/springcloud-consumer-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-consumer-fegin-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine/pom.xml" />
       </list>
     </option>
   </component>

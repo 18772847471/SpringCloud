@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: springcloud-consumer-hystrix-turbine
+server:
+  port: 80
+  context-path: /springcloud-consumer-hystrix-turbine
+eureka:
+  instance:
+      prefer-ip-address: true
+  client:
+    service-url:
+      #defaultZone: http://localhost:2000/eureka  #\u5355\u673A
+      defaultZone: http://eureka2001:2001/eureka,http://eureka2002:2002/eureka,http://eureka2003:2003/eureka
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 9000
+feign:
+  hystrix:
+    enabled: true
+feign-client:
+  ribbon:     #RetryRule   RandomRule
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RetryRule
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+turbine:
+  aggregator:
+    clusterConfig: default
+  app-config: springcloud-provider   # \u6307\u5B9A\u8981\u76D1\u63A7\u7684\u5E94\u7528\u540D\u79F0
+  clusterNameExpression: new String("default") #\u8868\u793A\u96C6\u7FA4\u7684\u540D\u5B57\u4E3Adefault

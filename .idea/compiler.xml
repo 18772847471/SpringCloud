@@ -13,6 +13,7 @@
         <module name="springcloud-consumer-feign" />
         <module name="springcloud-consumer-hystrix" />
         <module name="springcloud-consumer-hystrix-dashboard" />
+        <module name="springcloud-consumer-hystrix-turbine" />
         <module name="springcloud-eureka-server" />
         <module name="springcloud-eureka-server (1)" />
         <module name="springcloud-eureka-server-2001" />
@@ -35,6 +36,7 @@
       <module name="springcloud-consumer-hystrix" target="1.8" />
       <module name="springcloud-consumer-hystrix-dashboard" target="1.8" />
       <module name="springcloud-consumer-hystrix-dashboard-90" target="1.8" />
+      <module name="springcloud-consumer-hystrix-turbine" target="1.8" />
       <module name="springcloud-eureka-server" target="1.8" />
       <module name="springcloud-eureka-server (1)" target="1.8" />
       <module name="springcloud-eureka-server-2001" target="1.8" />

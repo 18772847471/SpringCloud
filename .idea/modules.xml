@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-feign/springcloud-consumer-feign.iml" filepath="$PROJECT_DIR$/springcloud-consumer-feign/springcloud-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-hystrix/springcloud-consumer-hystrix.iml" filepath="$PROJECT_DIR$/springcloud-consumer-hystrix/springcloud-consumer-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/springcloud-consumer-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/springcloud-consumer-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-hystrix-turbine/springcloud-consumer-hystrix-turbine.iml" filepath="$PROJECT_DIR$/springcloud-consumer-hystrix-turbine/springcloud-consumer-hystrix-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server (1).iml" filepath="$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server-2001/springcloud-eureka-server-2001.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server-2001/springcloud-eureka-server-2001.iml" />
