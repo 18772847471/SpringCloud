@@ -7,10 +7,11 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class SpringCloudProvider1003Application {
+@EnableCircuitBreaker
+public class SpringCloudroviderHystrix1004Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudProvider1003Application.class, args);
+        SpringApplication.run(SpringCloudroviderHystrix1004Application.class, args);
     }
 
 }

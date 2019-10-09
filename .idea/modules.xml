@@ -20,6 +20,8 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-provider-1001/springcloud-provider-1001.iml" filepath="$PROJECT_DIR$/springcloud-provider-1001/springcloud-provider-1001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-provider-1002/springcloud-provider-1002.iml" filepath="$PROJECT_DIR$/springcloud-provider-1002/springcloud-provider-1002.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-provider-1003/springcloud-provider-1003.iml" filepath="$PROJECT_DIR$/springcloud-provider-1003/springcloud-provider-1003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-hystrix-1004/springcloud-provider-hystrix-1004.iml" filepath="$PROJECT_DIR$/springcloud-provider-hystrix-1004/springcloud-provider-hystrix-1004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-hystrix-1005/springcloud-provider-hystrix-1005.iml" filepath="$PROJECT_DIR$/springcloud-provider-hystrix-1005/springcloud-provider-hystrix-1005.iml" />
     </modules>
   </component>
 </project>

@@ -23,6 +23,8 @@
         <module name="springcloud-provider-1001" />
         <module name="springcloud-provider-1002" />
         <module name="springcloud-provider-1003" />
+        <module name="springcloud-provider-hystrix-1004" />
+        <module name="springcloud-provider-hystrix-1005" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -48,6 +50,7 @@
       <module name="springcloud-provider-1002" target="1.8" />
       <module name="springcloud-provider-1003" target="1.8" />
       <module name="springcloud-provider-hystrix-1004" target="1.8" />
+      <module name="springcloud-provider-hystrix-1005" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
