@@ -30,7 +30,5 @@ hystrix:
 turbine:
   aggregator:
     clusterConfig: default
-  app-config: springcloud-provider-hystrix   # \u6307\u5B9A\u8981\u76D1\u63A7\u7684\u5E94\u7528\u540D\u79F0
+  app-config: springcloud-provider-hystrix-turbine   # \u6307\u5B9A\u8981\u76D1\u63A7\u7684\u5E94\u7528\u540D\u79F0
   clusterNameExpression: new String("default") #\u8868\u793A\u96C6\u7FA4\u7684\u540D\u5B57\u4E3Adefault
-  instanceUrlSuffix:
-    default: /hystrix.stream
