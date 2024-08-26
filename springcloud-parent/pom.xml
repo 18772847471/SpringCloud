@@ -13,7 +13,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <cloud.version>Edgware.SR4</cloud.version>
         <boot.version>1.5.13.RELEASE</boot.version>
-        <swagger.version>2.6.1</swagger.version>
+        <swagger.version>2.10.0</swagger.version>
     </properties>
     <dependencyManagement>
         <dependencies>
